@@ -690,26 +690,26 @@ label{
     padding: 0 0 .5rem;
 }
 
-:root {
+/* :root {
   --primary-bg-color: #ffffff;
   --primary-color: #000000; 
   --second-color: #f3f3f3;
   --second-bg-color:#a0a0a0;
-}
+} */
 
 input[type="text"] ,input[type="email"], textarea{
     position: relative;
     width:100%;
     padding: 1.2rem;
     line-height: 1;
-    border: .1rem solid var(--primary-color);
-    background-color:var(--primary-bg-color);
+    border: .1rem solid var(--color-black);
+    background-color:var(--color-white);
     box-shadow: none;
     outline:0;
 
 }
 
-input[type="text"] ,input[type="email"]{
+/* input[type="text"] ,input[type="email"]{
     padding-right: 3rem ;
 }
 
@@ -719,7 +719,7 @@ input[type="text"] ,input[type="email"], textarea{
  background-color:var(--second-bg-color);
 
 
-}
+} */
 
 ::placeholder {
   font-style: italic;
