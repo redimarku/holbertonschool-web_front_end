@@ -656,6 +656,10 @@ ul.row {
 
 }
 
+.post-comments, .section-title{
+  font-variant:small-caps;
+}
+
 .section-title{
     font-variant: small-caps;
 }
