@@ -99,6 +99,16 @@
 /* Base
     ============================= */
 
+    .button-primary{
+    color: var(--color-white);
+  color:var(--color-primary);
+    }
+
+    .button-primary:hover{
+        color: var(--color-primary);
+        background-color: var(--color-white);
+    }
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -148,8 +158,6 @@ a:active {
 }
 
 .button:hover {
-  color: var(--color-white);
-  color:var(--color-primary);
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
