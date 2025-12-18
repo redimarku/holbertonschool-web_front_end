@@ -690,13 +690,20 @@ label{
     padding: 0 0 .5rem;
 }
 
+:root {
+  --primary-bg-color: #ffffff;
+  --primary-color: #000000; 
+  --second-color: #f3f3f3;
+  --second-bg-color:#a0a0a0;
+}
+
 input[type="text"] ,input[type="email"], textarea{
     position: relative;
     width:100%;
     padding: 1.2rem;
     line-height: 1;
-    border: .1rem solid var(--color-black);
-    background-color:var(--color-white);
+    border: .1rem solid var(--primary-color);
+    background-color:var(--primary-bg-color);
     box-shadow: none;
     outline:0;
 
@@ -708,8 +715,8 @@ input[type="text"] ,input[type="email"]{
 
 
 input[type="text"] ,input[type="email"], textarea{
- border: .1rem solid var(--color-grey);
- background-color:var(--color-light-grey);
+ border: .1rem solid var(--second-color);
+ background-color:var(--second-bg-color);
 
 
 }
