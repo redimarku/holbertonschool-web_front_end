@@ -759,7 +759,7 @@ input[type="text"] ,input[type="email"], textarea{
     color:var(--color-dark-grey);
     font-size: var(--font-size-small);
     max-height: 0;
-    transition: 3s;
+    transition: .3s;
     overflow: hidden;
 }
 
