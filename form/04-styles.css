@@ -690,7 +690,7 @@ label{
     padding: 0 0 .5rem;
 }
 
-input[text] input[email] textarea{
+input[type="text"] ,input[type="email"], textarea{
     position: relative;
     width:100%;
     padding: 1.2rem;
@@ -702,12 +702,12 @@ input[text] input[email] textarea{
 
 }
 
-input[text] input[email]{
+input[type="text"] ,input[type="email"]{
     padding-right: 3rem ;
 }
 
 
-input[text] input[email] textarea{
+input[type="text"] ,input[type="email"], textarea{
  border: .1rem solid grey;
  background-color: lightgrey;
 
