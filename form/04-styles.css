@@ -689,3 +689,32 @@ label{
     font-size: 1.4rem;
     padding: 0 0 .5rem;
 }
+
+input[text] ,input[email], textarea{
+    position: relative;
+    width:100%;
+    padding: 1.2rem;
+    line-height: 1;
+    border: .1rem solid black;
+    background-color: #ffffff;
+    box-shadow: none;
+    outline:0;
+
+}
+
+input[text] ,input[email]{
+    padding-right: 3rem ;
+}
+
+
+input[text] ,input[email], textarea{
+ border: .1rem solid grey;
+ background-color: lightgrey;
+
+
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: var(--font-size-small);
+}
