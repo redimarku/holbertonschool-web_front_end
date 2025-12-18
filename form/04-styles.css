@@ -709,17 +709,17 @@ input[type="text"] ,input[type="email"], textarea{
 
 }
 
-/* input[type="text"] ,input[type="email"]{
-    padding-right: 3rem ;
-}
+ input[type="text"] ,input[type="email"]{
+    padding-right:3rem ;
+} 
 
 
-input[type="text"] ,input[type="email"], textarea{
+/* input[type="text"] ,input[type="email"], textarea{
  border: .1rem solid var(--second-color);
  background-color:var(--second-bg-color);
 
 
-} */
+}  */
 
 ::placeholder {
   font-style: italic;
